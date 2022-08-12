@@ -57,6 +57,21 @@ header {
   justify-content: space-between;
   width: 100%;
   padding: 0.5em 0.5em 0;
+  margin-bottom: 1em;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navigation ul {
+  margin: 0 0;
+}
+
+.navigation li {
+  margin: 0 1rem;
 }
 
 section {

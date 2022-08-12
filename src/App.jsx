@@ -5,33 +5,33 @@ import Intro from './components/Intro'
 
 function App() {
   return(
-    <div class="container cont-main">
+    <div className="container cont-main">
         <Header />
         <Intro />
-        <section class="whatIDo dark" id='what_i_do'>
-            <div class="WhatIDo section-header">
-                <h2 class="WhatIDo title">What I do</h2>
+        <section className="whatIDo dark" id='what_i_do'>
+            <div className="WhatIDo section-header">
+                <h2 className="WhatIDo title">What I do</h2>
             </div> 
-            <div class="WhatIDo--items">
-                <div class="WhatIDo--development WhatIDo--item">
-                    <h3 class="whatIDo--development title">Development</h3>
-                    <p class="whatIDo--development description">I'm a front-end developer with a passion for creating
+            <div className="WhatIDo--items">
+                <div className="WhatIDo--development WhatIDo--item">
+                    <h3 className="whatIDo--development title">Development</h3>
+                    <p className="whatIDo--development description">I'm a front-end developer with a passion for creating
                         beautiful, functional, and responsive websites. I'm looking for a position where I can continue to grow and learn.</p>
                     <p>In my past life I was a windows systems administrator specializing in scripting and automation.</p>
                 </div>  {/* End of WhatIDo--development*/}
-                {/*  <div class="WhatIDo--sysadmin WhatIDo--item">
-                    <h3 class="whatIDo--sysadmin title">sysadmin</h3>
-                    <p class="whatIDo--sysadmin description">In my past life I was an accomplished Windows Systems Admin 
+                {/*  <div className="WhatIDo--sysadmin WhatIDo--item">
+                    <h3 className="whatIDo--sysadmin title">sysadmin</h3>
+                    <p className="whatIDo--sysadmin description">In my past life I was an accomplished Windows Systems Admin 
                         specializing in scripting and automation.</p>*/}
                 {/*  </div>  End of WhatIDo--sysadmin*/}
             </div>  {/* End of WhatIDo--items*/}
         </section> {/* End of whatIDo*/}
-        <section class="WhoAmI light" id='who_am_i'>
-            <div class="WhoAmI section-header">
-                <h2 class="WhoAmI title">Who am I</h2>
-                <h3 class="WhoAmI subtitle">Front-end developer based in Nashville, TN, USA</h3>
+        <section className="WhoAmI light" id='who_am_i'>
+            <div className="WhoAmI section-header">
+                <h2 className="WhoAmI title">Who am I</h2>
+                <h3 className="WhoAmI subtitle">Front-end developer based in Nashville, TN, USA</h3>
             </div>
-            <p class="WhoAmI--description">Throughout my years working in IT, I have always enjoyed 
+            <p className="WhoAmI--description">Throughout my years working in IT, I have always enjoyed 
                 scripting and developing applications to automate the tasks that keep things running 
                 smoothly. I started scripting with PowerShell and have been extremely interested in 
                 development since.</p>
@@ -48,41 +48,41 @@ function App() {
                         help where needed. Building relationships is the foundation of a great home 
                         life and a great work life.</p>
         </section> {/* End of WhoAmI*/}
-        <section class="MyWork dark" id='my_work'>
-            <div class="MyWork section-header">
-                <h2 class ="MyWork title">My Work</h2>
-                {/*  <h3 class="MyWork subtitle">Check out some of my work</h3>*/}
+        <section className="MyWork dark" id='my_work'>
+            <div className="MyWork section-header">
+                <h2 className ="MyWork title">My Work</h2>
+                {/*  <h3 className="MyWork subtitle">Check out some of my work</h3>*/}
             </div>
-            <div class="MyWork--items">
-                <a href="https://gpend.github.io/color-picker/"><img class="MyWork item"src="/color_picker_s.png" alt="My Work Item"/></a>
-                <a href="https://gpend.github.io/tip-calculator-app/"><img class="MyWork item"src="/splitter (Medium).jpg" alt="My Work Item"/></a>
-                <a href="https://gpend.github.io/calc-app/"><img class="MyWork item"src="/calc (Medium).jpg" alt="My Work Item"/></a>
-                <a href="https://gpend.github.io/receipe-site/"><img class="MyWork item"src="/batchlor_chow.png" alt="My Work Item"/></a>
-                <a href="https://gpend.github.io/frontendMentor_stats_preview_card/"><img class="MyWork item"src="/stats-card (Medium).jpg" alt="My Work Item"/></a>
-                <a href="https://gpend.github.io/pomodoro-timer/"><img class="MyWork item"src="/pomodoro (Medium).jpg" alt="My Work Item"/></a>
-                <a href="https://gpend.github.io/password-creator/"><img class="MyWork item" src="/password.png" alt="My WorkItem"/></a>
+            <div className="MyWork--items">
+                <a href="https://gpend.github.io/color-picker/"><img className="MyWork item"src="/color_picker_s.png" alt="My Work Item"/></a>
+                <a href="https://gpend.github.io/tip-calculator-app/"><img className="MyWork item"src="/splitter (Medium).jpg" alt="My Work Item"/></a>
+                <a href="https://gpend.github.io/calc-app/"><img className="MyWork item"src="/calc (Medium).jpg" alt="My Work Item"/></a>
+                <a href="https://gpend.github.io/receipe-site/"><img className="MyWork item"src="/batchlor_chow.png" alt="My Work Item"/></a>
+                <a href="https://gpend.github.io/frontendMentor_stats_preview_card/"><img className="MyWork item"src="/stats-card (Medium).jpg" alt="My Work Item"/></a>
+                <a href="https://gpend.github.io/pomodoro-timer/"><img className="MyWork item"src="/pomodoro (Medium).jpg" alt="My Work Item"/></a>
+                <a href="https://gpend.github.io/password-creator/"><img className="MyWork item" src="/password.png" alt="My WorkItem"/></a>
             </div>
         </section> {/* End of MyWork*/}
-        <footer class="dark" id='socials'>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://codepen.io/gpend">
-                        <i class="fab fa-codepen"></i>
+        <footer className="dark" id='socials'>
+            <ul className="social-list">
+                <li className="social-list__item">
+                    <a className="social-list__link" href="https://codepen.io/gpend">
+                        <i className="fab fa-codepen"></i>
                     </a>
                 </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/gpendleton">
-                        <i class="fab fa-twitter"></i>
+                <li className="social-list__item">
+                    <a className="social-list__link" href="https://twitter.com/gpendleton">
+                        <i className="fab fa-twitter"></i>
                     </a>
                 </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/gpend">
-                        <i class="fab fa-github"></i>
+                <li className="social-list__item">
+                    <a className="social-list__link" href="https://github.com/gpend">
+                        <i className="fab fa-github"></i>
                     </a>
                 </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/gregpendleton/">
-                        <i class="fa-brands fa-linkedin"></i>
+                <li className="social-list__item">
+                    <a className="social-list__link" href="https://www.linkedin.com/in/gregpendleton/">
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </li>
                 
@@ -95,5 +95,5 @@ function App() {
 export default App
 
 {/* <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img src="/vite.svg" classNameName="logo" alt="Vite logo" />
         </a> */}
