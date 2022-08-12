@@ -8,7 +8,7 @@ function App() {
     <div class="container cont-main">
         <Header />
         <Intro />
-        <section class="whatIDo dark">
+        <section class="whatIDo dark" id='what_i_do'>
             <div class="WhatIDo section-header">
                 <h2 class="WhatIDo title">What I do</h2>
             </div> 
@@ -26,7 +26,7 @@ function App() {
                 {/*  </div>  End of WhatIDo--sysadmin*/}
             </div>  {/* End of WhatIDo--items*/}
         </section> {/* End of whatIDo*/}
-        <section class="WhoAmI light">
+        <section class="WhoAmI light" id='who_am_i'>
             <div class="WhoAmI section-header">
                 <h2 class="WhoAmI title">Who am I</h2>
                 <h3 class="WhoAmI subtitle">Front-end developer based in Nashville, TN, USA</h3>
@@ -48,7 +48,7 @@ function App() {
                         help where needed. Building relationships is the foundation of a great home 
                         life and a great work life.</p>
         </section> {/* End of WhoAmI*/}
-        <section class="MyWork dark">
+        <section class="MyWork dark" id='my_work'>
             <div class="MyWork section-header">
                 <h2 class ="MyWork title">My Work</h2>
                 {/*  <h3 class="MyWork subtitle">Check out some of my work</h3>*/}
@@ -63,7 +63,7 @@ function App() {
                 <a href="https://gpend.github.io/password-creator/"><img class="MyWork item" src="/password.png" alt="My WorkItem"/></a>
             </div>
         </section> {/* End of MyWork*/}
-        <footer class="dark">
+        <footer class="dark" id='socials'>
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://codepen.io/gpend">
